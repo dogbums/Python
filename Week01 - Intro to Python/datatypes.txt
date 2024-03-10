@@ -1,0 +1,7 @@
+Profit: float (can be decimals with monetary amounts)
+Weight: float (can be decimals with weight)
+Book title: string (because it's just names)
+Average rainfall: integer (because measured in MM)
+Runs scored: integer (Scores are whole numbers)
+Telephone number: string (because 0s can be difficult to work with in code)
+Dress size: integer (Dress sizes are whole numbers)
