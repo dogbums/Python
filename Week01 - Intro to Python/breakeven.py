@@ -8,6 +8,9 @@ profitperitem = (saleprice - itemcost)
 
 breakeven = (profitperitem / fixedcosts)
 
+numberofitems = (fixedcosts / breakeven)
+
 
 print (profitperitem)
 print (breakeven)
+print (numberofitems)
