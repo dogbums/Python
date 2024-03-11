@@ -11,6 +11,9 @@ breakeven = (fixedcosts / profitperitem)
 numberofitems = (fixedcosts / breakeven)
 
 
-print ("profit per item:" (profitperitem))
-print ("break even" (breakeven))
-print ("number of items which must be sold" (numberofitems))
+print ("profit per item:") 
+print (profitperitem)
+print ("break even:")
+print (breakeven)
+print ("number of items which must be sold:")
+print (numberofitems)
