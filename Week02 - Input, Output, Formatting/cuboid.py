@@ -1,4 +1,4 @@
-# Program for measuring volume and surface area of a cuboid
+# A program for measuring volume and surface area of a cuboid
 
 height = int(input("Enter height: "))
 width = int(input ("Enter width: "))
