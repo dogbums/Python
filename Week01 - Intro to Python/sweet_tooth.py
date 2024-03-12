@@ -3,10 +3,21 @@
 totalnumberofsweets = int(40)
 numberofstudents = int(14)
 
-sweetsperstudent = (totalnumberofsweets % numberofstudents)
 
-sweetsforteacher = (totalnumberofsweets - sweetsperstudent * 14)
+sweetsforteacher = (totalnumberofsweets % numberofstudents)
 
-print(f"Number of sweets each: {sweetsperstudent}")
+sweetsforstudents = (totalnumberofsweets - sweetsforteacher)
+
+sweetsperstudent = (sweetsforstudents % numberofstudents)
+
+#totalsweetsforstudents = (totalnumberofsweets % numberofstudents)
+
+#sweetsperstudent = (totalsweetsforstudents / 14)
+
+#sweetsforteacher = (totalnumberofsweets - sweetsperstudent * 14)
+
+#print(f"Number of sweets each: {sweetsperstudent}")
+
+print(f"Sweets per student: {sweetsperstudent}")
 
 print(f"Sweets left for teacher: {sweetsforteacher}")
