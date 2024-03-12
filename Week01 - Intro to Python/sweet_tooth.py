@@ -8,7 +8,7 @@ sweetsforteacher = (totalnumberofsweets % numberofstudents)
 
 sweetsforstudents = (totalnumberofsweets - sweetsforteacher)
 
-sweetsperstudent = (sweetsforstudents % numberofstudents)
+sweetsperstudent = (sweetsforstudents / numberofstudents)
 
 #totalsweetsforstudents = (totalnumberofsweets % numberofstudents)
 
