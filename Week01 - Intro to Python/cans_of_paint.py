@@ -2,14 +2,18 @@
 
 import math
 
-areapercan = (5.1)
+areapaintedpercan = (5.1)
 
 totalareapainted = ((40 * 3.4 * 2) + (30 * 3.4 *2))
 
-numberofcans = math.ceil(totalareapainted / areapercan)
+numberofcans = math.ceil(totalareapainted / areapaintedpercan)
 
-boxarea = (0.60 * 0.35)
+canarea = (0.15 * 0.15 * 0.30)
+
+boxarea = (0.30 * 0.35 * 0.60)
+
+totalcansinbox = (boxarea / canarea)
 
 print (totalareapainted)
-print (boxarea)
+print (totalcansinbox)
 print (numberofcans)
