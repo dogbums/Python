@@ -1,7 +1,5 @@
 # Calculating how many whole sweets can be shared between students
 
-totalnumberofsweets = int(40)
-numberofstudents = int(14)
 
 def homonculous(totalnumberofsweets, numberofstudents):
     sweetsforteacher = (totalnumberofsweets % numberofstudents)
@@ -15,10 +13,14 @@ def homonculous(totalnumberofsweets, numberofstudents):
 
 #sweetsperstudent = (sweetsforstudents / numberofstudents)
 
-result , result2 = homonculous(totalnumberofsweets , numberofstudents)
+while True:
+
+   totalnumberofsweets = int(input("Input number of sweets"))
+   numberofstudents = int(input("Input number of students"))
+
+   result , result2 = homonculous(totalnumberofsweets , numberofstudents)
 
 
+   print(f"Sweets per student: {result}")
 
-print(f"Sweets per student: {result}")
-
-print(f"Sweets left for teacher: {result2}")
+   print(f"Sweets left for teacher: {result2}")
