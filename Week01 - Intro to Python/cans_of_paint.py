@@ -14,6 +14,8 @@ boxarea = (0.30 * 0.35)
 
 totalcansinbox = math.floor(boxarea / canarea) * 2
 
-print (totalareapainted)
-print (totalcansinbox)
-print (numberofcans)
+totalfullboxes = math.floor(94 / 8)
+
+print (f"Total cans required: {numberofcans}")
+print (f"Cans per box: {totalcansinbox}")
+print (f"Full boxes: {totalfullboxes}")
