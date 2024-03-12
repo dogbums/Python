@@ -8,11 +8,11 @@ totalareapainted = ((40 * 3.4 * 2) + (30 * 3.4 *2))
 
 numberofcans = math.ceil(totalareapainted / areapaintedpercan)
 
-canarea = (0.15 * 0.15 * 0.30)
+canarea = (0.15 * 0.15)
 
-boxarea = (0.30 * 0.35 * 0.60)
+boxarea = (0.30 * 0.35)
 
-totalcansinbox = (boxarea / canarea)
+totalcansinbox = math.floor(boxarea / canarea) * 2
 
 print (totalareapainted)
 print (totalcansinbox)
