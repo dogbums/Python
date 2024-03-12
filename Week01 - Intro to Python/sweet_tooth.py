@@ -11,6 +11,6 @@ sweetsforstudents = (totalnumberofsweets - sweetsforteacher)
 sweetsperstudent = (sweetsforstudents / numberofstudents)
 
 
-print(f"Sweets per student: {sweetsperstudent}")
+print(f"Sweets per student: {int(sweetsperstudent)}")
 
 print(f"Sweets left for teacher: {sweetsforteacher}")
