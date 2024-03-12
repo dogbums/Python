@@ -1,5 +1,12 @@
 # Calculating how many whole sweets can be shared between students
 
-answer = (5 % 2)
+totalnumberofsweets = (40)
+numberofstudents = (14)
 
-print (answer)
+sweetsperstudent = (40 % 4)
+
+sweetsforteacher = (totalnumberofsweets - sweetsperstudent * 14)
+
+print(f"Number of sweets each: {sweetsperstudent}")
+
+print(f"Sweets left for teacher: {sweetsforteacher}")
