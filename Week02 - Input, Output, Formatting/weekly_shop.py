@@ -2,10 +2,6 @@
 
 # print (f"Peaches {peaches}")
 
-# number1 = input("Enter number 1: ")
-# number2 = input("Enter number 2: ")
-# total = int(number1) + int(number2) 
-# print(total)
 
 # peaches = input("Enter number of peaches: ")
 # beans = input("Enter number of cans of beans: ")
