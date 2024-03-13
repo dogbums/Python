@@ -12,7 +12,20 @@ totalinches = (feet*12)+(inches)
 
 centimetres = (totalinches*2.54)
 
-print(centimetres)
+metres = (centimetres*100)
+
+kilometres = (metres*1000)
+
+millimetres = (centimetres/10)
+
+centimetres = (centimetres)
+
+
+
+print(f"Height in kilometres {kilometres}")
+print(f"Height in metres {metres}")
+print(f"Height in centimetres {centimetres}")
+print(f"Height in millimetres {millimetres}")
 
 # metres
 # centimetres
