@@ -8,14 +8,17 @@ inches = int(input("Inches: "))
 # 1 foot = 0.305 metres
 # 1 inch = 0.025 metres
 
+totalinches = (feet*12) + (inches)
+
+print(totalinches)
 
 # metres
 # centimetres
 # millimetres
 
-print(f"Kilometres: {kilometres:.6f}")
+# print(f"Kilometres: {kilometres:.6f}")
 
-print(f"Metres: {heightinmetres}")
+# print(f"Metres: {heightinmetres}")
 
 
 
