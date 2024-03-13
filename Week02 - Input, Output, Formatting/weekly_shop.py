@@ -1,9 +1,3 @@
-# peaches = input()
-# beans = input()
-# chickenpieces = input()
-# socks = input()
-# bottlesofwater = input()
-
 # input (f"Enter number of peaches: {peaches}")
 # input (f"Enter number of cans of beans: {beans}")
 # input (f"Enter number of packs of chicken pieces: {chickenpieces}")
