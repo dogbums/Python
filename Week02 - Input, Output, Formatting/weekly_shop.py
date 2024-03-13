@@ -33,11 +33,11 @@ totalnumberofitems = (int(peaches) + int(beans) + int(chickenpieces) + int(socks
 
 totalpriceofitems = (float(priceofpeaches) + float(priceofbeans) + float(priceofchickenpieces) + float(priceofsocks) + float(priceofbottlesofwater))
 
-print(f"Peaches \n-how many? {peaches}\n -price? {priceofpeaches}")
-print(f"Beans \n -how many? {beans}\n -price? {priceofbeans}")
-print(f"Chicken \n -how many? {chickenpieces}\n -price? {priceofchickenpieces}")
-print(f"Socks \n -how many? {socks}\n -price?\n {priceofsocks}")
-print(f"Bottles of water \n -how many? {bottlesofwater} -price?\n {priceofbottlesofwater}")
+print(f"Peaches \n-how many? {peaches}\n-price? {priceofpeaches}")
+print(f"Beans \n-how many? {beans}\n-price? {priceofbeans}")
+print(f"Chicken \n-how many? {chickenpieces}\n-price? {priceofchickenpieces}")
+print(f"Socks \n-how many? {socks}\n-price? {priceofsocks}")
+print(f"Bottles of water \n-how many? {bottlesofwater}\n-price? {priceofbottlesofwater}")
 
-print(totalnumberofitems)
-print(totalpriceofitems)
+print(f"Total number of items purchased: {totalnumberofitems}")
+print(f"Your weekly shop cost: {totalpriceofitems}")
