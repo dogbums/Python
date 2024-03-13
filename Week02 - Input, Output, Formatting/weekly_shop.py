@@ -23,13 +23,14 @@ chickenpieces = input("Enter number of packets of chicken pieces: ")
 socks = input("Enter number of pairs of socks: ")
 bottlesofwater = input("Enter number of bottles of water: ")
 
-priceofpeaches = input("Enter the price of a peach: ")
-priceofbeans = input("Enter the price of a can of beans: ")
-priceofchickenpieces = input ("Enter the price of a packet of chicken pieces: ")
-priceofsocks = input("Enter the price of a pair of socks: ")
-priceofbottlesofwater = input("Enter the price of a bottle of water: ")
+# priceofpeaches = input("Enter the price of a peach: ")
+# priceofbeans = input("Enter the price of a can of beans: ")
+# priceofchickenpieces = input ("Enter the price of a packet of chicken pieces: ")
+# priceofsocks = input("Enter the price of a pair of socks: ")
+# priceofbottlesofwater = input("Enter the price of a bottle of water: ")
+
+totalnumberofitems = sum(peaches + beans + chickenpieces + socks + bottlesofwater )
 
 
 
-
-print(peaches)
+print(totalnumberofitems)
