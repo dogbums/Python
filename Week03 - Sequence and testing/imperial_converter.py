@@ -8,9 +8,11 @@ inches = int(input("Inches: "))
 # 1 foot = 0.305 metres
 # 1 inch = 0.025 metres
 
-totalinches = (feet*12) + (inches)
+totalinches = (feet*12)+(inches)
 
-print(totalinches)
+centimetres = (totalinches*2.54)
+
+print(centimetres)
 
 # metres
 # centimetres
