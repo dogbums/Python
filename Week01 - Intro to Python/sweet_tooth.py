@@ -1,7 +1,7 @@
 # Calculating how many whole sweets can be shared between students
 
-totalnumberofsweets = int(40)
-numberofstudents = int(14)
+totalnumberofsweets = (40)
+numberofstudents = (14)
 
 
 sweetsforteacher = (totalnumberofsweets % numberofstudents)
