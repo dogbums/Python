@@ -20,4 +20,4 @@ print(f"Water:        £    {water}")
 print(f"Council tax:  £    {counciltax}")
 
 print("================================")
-print("Total:         £    {total}")
+print(f"Total:         £    {total}")
