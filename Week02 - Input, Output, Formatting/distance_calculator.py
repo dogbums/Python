@@ -1,6 +1,6 @@
-u = input("Enter initial velocity: ")
-t = input("Enter time: ")
-a = input("Enter acceleration: ")
+u = float(input("Enter initial velocity: "))
+t = float(input("Enter time: "))
+a = float(input("Enter acceleration: "))
 
 # UT = (initial_velocity * time)
 # T2 = (time * time)
