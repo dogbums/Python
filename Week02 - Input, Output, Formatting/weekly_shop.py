@@ -33,5 +33,7 @@ totalnumberofitems = (int(peaches) + int(beans) + int(chickenpieces) + int(socks
 
 totalpriceofitems = (float(priceofpeaches) + float(priceofbeans) + float(priceofchickenpieces) + float(priceofsocks) + float(priceofbottlesofwater))
 
+print(f"Peaches \n{peaches}")
+
 print(totalnumberofitems)
 print(totalpriceofitems)
