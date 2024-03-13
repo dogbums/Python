@@ -24,13 +24,4 @@ print(f"Height in metres {metres}")
 print(f"Height in centimetres {centimetres}")
 print(f"Height in millimetres {millimetres}")
 
-# metres
-# centimetres
-# millimetres
-
-# print(f"Kilometres: {kilometres:.6f}")
-
-# print(f"Metres: {heightinmetres}")
-
-
 
