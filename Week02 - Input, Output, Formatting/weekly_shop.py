@@ -39,4 +39,4 @@ print(f"Socks \n-how many? {socks}\n-price? {priceofsocks}")
 print(f"Bottles of water \n-how many? {bottlesofwater}\n-price? {priceofbottlesofwater}")
 
 print(f"Total number of items purchased: {totalnumberofitems}")
-print(f"Your weekly shop cost: {totalpriceofitems}")
+print(f"Your weekly shop cost: {totalpriceofitems:.2f}")
