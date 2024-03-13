@@ -1,3 +1,5 @@
+# Program that converts feet and inches into various metric equivalents
+
 import math
 
 print("Please input height in feet and inches: ")
