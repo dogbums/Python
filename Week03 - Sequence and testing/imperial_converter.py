@@ -12,14 +12,11 @@ totalinches = (feet*12)+(inches)
 
 centimetres = (totalinches*2.54)
 
-metres = (centimetres*100)
+metres = (centimetres/100)
 
-kilometres = (metres*1000)
+kilometres = (metres/1000)
 
-millimetres = (centimetres/10)
-
-centimetres = (centimetres)
-
+millimetres = (centimetres*10)
 
 
 print(f"Height in kilometres {kilometres}")
