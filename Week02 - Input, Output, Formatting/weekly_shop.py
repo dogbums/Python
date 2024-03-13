@@ -12,7 +12,15 @@
 
 # print (f"Peaches {peaches}")
 
-number1 = input("Enter number 1: ")
-number2 = input("Enter number 2: ")
-total = int(number1) + int(number2) 
-print(total)
+# number1 = input("Enter number 1: ")
+# number2 = input("Enter number 2: ")
+# total = int(number1) + int(number2) 
+# print(total)
+
+peaches = input("Enter number of peaches: ")
+beans = input("Enter number of cans of beans: ")
+chickenpieces = input("Enter number of packets of chicken pieces: ")
+socks = input("Enter number of pairs of socks: ")
+bottlesofwater = input("Enter number of bottles of water: ")
+
+print(peaches)
