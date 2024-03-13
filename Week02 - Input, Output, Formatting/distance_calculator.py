@@ -10,4 +10,4 @@ a = float(input("Enter acceleration: "))
 S = (u*t) + (0.5*a*(t*t))
 
 
-print(S)
+print(f"Distance in metres: {S}")
