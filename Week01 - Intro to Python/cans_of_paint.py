@@ -14,9 +14,9 @@ boxarea = (0.30 * 0.35)
 
 totalcansinbox = math.floor(boxarea / canarea) * 2
 
-totalfullboxes = math.floor(94 / 8)
+totalfullboxes = math.floor(numberofcans / totalcansinbox)
 
-cansnotinboxes = (94 % 8)
+cansnotinboxes = (numberofcans % totalcansinbox)
 
 print (f"Total cans required: {numberofcans}")
 print (f"Cans per box: {totalcansinbox}")
