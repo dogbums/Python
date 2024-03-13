@@ -4,7 +4,7 @@ electricity = input("How much is your electricity? ")
 water = input("How much is your water? ")
 counciltax = input("How much is your water bill? ")
 
-total = (rent + gas + electricity + water + counciltax)
+total = (float(rent) + float(gas) + float(electricity) + float(water) + float(counciltax))
 
 print(f"Rent per month: {rent}")
 print(f"Gas payment per month: {gas}")
@@ -18,3 +18,6 @@ print(f"Gas:          £    {gas}")
 print(f"Electricity:  £    {electricity}")
 print(f"Water:        £    {water}")
 print(f"Council tax:  £    {counciltax}")
+
+print("================================")
+print("Total:         £    {total}")
