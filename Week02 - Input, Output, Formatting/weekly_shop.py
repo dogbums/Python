@@ -1,7 +1,5 @@
-
-
-
-
+# A program designed to input and calculate the price of a weekly shop and display the total number of items as well as the 
+# number of individual item and cost
 
 # peaches = input("Enter number of peaches: ")
 # beans = input("Enter number of cans of beans: ")
