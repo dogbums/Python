@@ -29,7 +29,7 @@ bottlesofwater = input("Enter number of bottles of water: ")
 # priceofsocks = input("Enter the price of a pair of socks: ")
 # priceofbottlesofwater = input("Enter the price of a bottle of water: ")
 
-totalnumberofitems = sum(peaches + beans + chickenpieces + socks + bottlesofwater )
+totalnumberofitems = (int(peaches) + int(beans) + int(chickenpieces) + int(socks) + int(bottlesofwater))
 
 
 
