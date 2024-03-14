@@ -1,3 +1,5 @@
+# Program that calculates the current and future capacity of a network before and after installing a new application
+
 
 BPS = 1
 
