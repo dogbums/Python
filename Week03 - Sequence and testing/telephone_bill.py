@@ -1,6 +1,6 @@
 # A program that calculates call charges
 
-minutes =float(input("Please enter number of minutes: "))
+minutes =int(input("Please enter number of minutes: "))
 
 callcharge = (minutes*0.15)
 
