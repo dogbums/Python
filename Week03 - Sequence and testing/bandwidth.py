@@ -19,9 +19,9 @@ NEWAVAIL = (LEFTOVER -NEWAPP)/1000000
 
 print(f"Maximum network capacity: {MAX} bps")
 
-print(f"Current network usage: {CURRENT} bps")
+print(f"Current network usage: {CURRENT:.0f} bps")
 
-print(f"Current availability: {LEFTOVER} bps")
+print(f"Current availability: {LEFTOVER:.0f} bps")
 
 print(f"New application requirement: {NEWAPP} bps")
 
