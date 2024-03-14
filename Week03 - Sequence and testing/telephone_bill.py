@@ -6,12 +6,12 @@ callcharge = (minutes*0.15)
 
 totalbill = (callcharge)*1.2
 
-VAT = (totalbill)*0.2
+VAT = (callcharge)*0.2
 
-print(minutes)
+print(f"Number of minutes used: {minutes}")
 
-print(callcharge)
+print(f"Basic call charge: {callcharge:.2f}")
 
-print(VAT)
+print(f"VAT due: {VAT:.2f}")
 
-print(totalbill)
+print(f"Total bill: {totalbill:.2f}")
