@@ -17,12 +17,12 @@ LEFTOVER = (MAX-CURRENT)
 
 NEWAVAIL = (LEFTOVER -NEWAPP)/1000000
 
-print(f"Maximum network capacity: {MAX}")
+print(f"Maximum network capacity: {MAX} bps")
 
-print(f"Current network usage: {CURRENT}")
+print(f"Current network usage: {CURRENT} bps")
 
-print(f"Current availability: {LEFTOVER}")
+print(f"Current availability: {LEFTOVER} bps")
 
-print(f"New application requirement: {NEWAPP}")
+print(f"New application requirement: {NEWAPP} bps")
 
-print(f"Bandwidth available after new app is installed {NEWAVAIL}")
+print(f"Bandwidth available after new app is installed {NEWAVAIL} Mbps")
