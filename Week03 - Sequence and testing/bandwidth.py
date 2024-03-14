@@ -1,0 +1,6 @@
+
+BPS = 1
+
+MBPS = BPS/1000000
+
+print(BPS)
