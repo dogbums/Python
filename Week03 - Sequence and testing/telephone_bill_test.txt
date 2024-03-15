@@ -24,3 +24,14 @@ VAT = Basic charge x 0.2 (20%)
 
 Total = Basic charge + VAT
 
+Reasoning for testing:
+
+Inputting 0: To ensure that the integer 0 would still produce
+a result, despite being neither positive or negative
+
+Inputting 1: To easily test the outputs with the most simple input
+and therefore the most simple results to analyse
+
+Inputting 2: To ensure that all the values from the previous
+calculation have doubled and therefore must be correct
+
