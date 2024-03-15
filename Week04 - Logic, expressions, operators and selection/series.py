@@ -1,10 +1,10 @@
 print("Please input 5 whole numbers (can be either positive or negative, but not zero): ")
 
 num1 = int(input("Please enter the first whole number: "))
-num2 = input("Please enter the second whole number: ")
-num3 = input("Please enter the third whole number: ")
-num4 = input("Please enter the fourth whole number: ")
-num5 = input("Please enter the fifth whole number: ")
+num2 = int(input("Please enter the second whole number: "))
+num3 = int(input("Please enter the third whole number: "))
+num4 = int(input("Please enter the fourth whole number: "))
+num5 = int(input("Please enter the fifth whole number: "))
 
 num1neg = int
 num1pos = int
@@ -42,3 +42,10 @@ if (num5 > 0):
 else:
     num5 = num5neg
 
+positivenums = (num1pos + num2pos + num3pos + num4pos + num5pos)
+
+negativenums = (num1neg + num2neg + num3neg + num4neg + num5neg)
+
+print("Sum of positive integers:" (positivenums))
+
+print("Sum of negative integers: "(negativenums))
