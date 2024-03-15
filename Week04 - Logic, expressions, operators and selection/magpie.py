@@ -1,0 +1,1 @@
+number = input("Please a whole number between 1 and 7:")
