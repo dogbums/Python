@@ -1,10 +1,10 @@
 # A program that determines whether a number as odd or even
 
-number = (input("Please enter a postive whole number: "))
+number = int(input("Please enter a postive whole number: "))
 
-numbercont = (number/2))
+numbercont = (number%2)
 
-if (number) == (int):
+if (numbercont == 0):
  print("FALSE")
 else:
  print("TRUE")
