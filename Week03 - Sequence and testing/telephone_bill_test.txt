@@ -1,0 +1,26 @@
+Input:      Expected output:      Actual result:
+0           Minutes used: 0       0
+            Basic charge: £0.00   £0.00
+            VAT:          £0.00   £0.00
+            Total:        £0.00   £0.00
+
+1           Minutes used: 1
+            Basic charge: £0.15   £0.15
+            VAT:          £0.03   £0.03
+            Total:        £0.18   £0.18
+
+
+
+2           Minutes used: 2
+            Basic charge: £0.30   £0.30
+            VAT:          £0.06   £0.06
+            Total:        £0.36   £0.36
+
+Calculations:
+
+Basic charge = Minutes used x 0.15 (charge per minute)
+
+VAT = Basic charge x 0.2 (20%)
+
+Total = Basic charge + VAT
+
