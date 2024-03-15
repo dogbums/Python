@@ -18,33 +18,33 @@ num5neg = int
 num5pos = int
 
 if (num1 > 0):
-    num1 = num1pos
+    num1 = int(num1pos)
 else:
-    num1 = num1neg
+    num1 = int(num1neg)
 
 if (num2 > 0):
-    num2 = num2pos
+    num2 = int(num2pos)
 else:
-    num2 = num2neg
+    num2 = int(num2neg)
 
 if (num3 > 0):
-    num3 = num3pos
+    num3 = int(num3pos)
 else:
-    num3 = num3neg
+    num3 = int(num3neg)
 
 if (num4 > 0):
-    num4 = num4pos
+    num4 = int(num4pos)
 else:
-    num4 = num4neg
+    num4 = int(num4neg)
 
 if (num5 > 0):
-    num5 = num5pos
+    num5 = int(num5pos)
 else:
-    num5 = num5neg
+    num5 = int(num5neg)
 
-print (sum(f"{num1pos + num2pos + num3pos + num4pos + num5pos}"))
+print (sum(int(f"{num1pos + num2pos + num3pos + num4pos + num5pos}")))
 
-print (sum(f"{num1neg + num2neg + num3neg + num4neg + num5neg}"))
+print (sum(int(f"{num1neg + num2neg + num3neg + num4neg + num5neg}")))
 
 # print("Sum of positive integers:" (positivenums))
 
