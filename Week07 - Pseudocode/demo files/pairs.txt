@@ -1,0 +1,77 @@
+# prepare counters
+set number of guesses to zero
+set number of pairs found to zero
+
+# prepare the grids
+create card grid as a 4x4 list containing 4 Jacks, 4 Queens, 4 Kings and 4 Aces in any order
+create display grid as a 4x4 list containing 16 '*' characters
+
+# output the display grid
+for  x = 1..4 do
+    for y = 1..4 do
+        write display grid (x, y)
+    end loop
+end loop
+
+# while not all pairs identified do
+while number of pairs found < 8
+    add 1 to number of guesses
+
+    # ask the user to select a pair of cards in the grid
+    write "Enter co-ordinates of your first choice (x, y) "
+    read x1 and y1
+
+    # validate user choice
+    while x1 not 1-4 and y1 not 1-4 and first card is a previously found card do
+        # ask the user to select a pair of cards in the grid
+        write "Enter co-ordinates of your first choice (x, y) "
+        read x1 and y1
+    end loop
+
+    display grid (x1, y1) = card grid (x1, y1)
+    #output the display grid showing the chosen card
+    for  x = 1..4 do
+        for y = 1..4 do
+            write display grid (x, y)
+        end loop
+    end loop
+
+    write "Enter co-ordinates of your second choice (x, y) "
+    read x2 and y2
+    # validate user choice
+    while x2 not 1-4 and y2 not 1-4 and second card is a previously found card do
+        # ask the user to select a pair of cards in the grid
+        write "Enter co-ordinates of your second choice (x, y) "
+        read x2 and y2
+    end loop
+
+    display grid (x2, y2) = card grid (x2, y2)
+    # output the display grid showing both chosen cards
+    for  x = 1..4 do
+        for y = 1..4 do
+            write display grid (x, y)
+        end loop
+    end loop
+
+    # check the user's selection
+    if the two cards are the same then
+        display grid (x1, y1) = 'X'
+        display grid (x2, y2) = 'X'
+        add 1 to number of pairs found
+        write "Congratulations, you have now found", number of pairs found, "pairs"
+    else
+        display grid (x1, y1) = '*'
+        display grid (x2, y2) = '*'
+        write "Hard luck! Try again"
+    end if
+
+    # output the display grid with the results
+    for  x = 1..4 do
+        for y = 1..4 do
+            write display grid (x, y)
+        end loop
+    end loop
+end loop
+
+# display number of guesses needed to complete the grid
+write "You took", number of guesses, "guesses to find all the pairs"
