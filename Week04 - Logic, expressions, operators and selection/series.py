@@ -42,10 +42,10 @@ if (num5 > 0):
 else:
     num5 = num5neg
 
-positivenums = (num1pos + num2pos + num3pos + num4pos + num5pos)
+print (sum(f"{num1pos + num2pos + num3pos + num4pos + num5pos}"))
 
-negativenums = (num1neg + num2neg + num3neg + num4neg + num5neg)
+print (sum(f"{num1neg + num2neg + num3neg + num4neg + num5neg}"))
 
-print("Sum of positive integers:" (positivenums))
+# print("Sum of positive integers:" (positivenums))
 
-print("Sum of negative integers: "(negativenums))
+# print("Sum of negative integers: "(negativenums))
