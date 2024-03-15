@@ -4,7 +4,9 @@ askpassword = input ("Please enter your password: ")
 
 askpassword = str.lower(askpassword)
 
-if (askpassword) == str.lower("numbnutz"):
+storedpassword = "numbnutz"
+
+if (askpassword == storedpassword):
     print("Welcome")
 else:
     print("Wrong password")
