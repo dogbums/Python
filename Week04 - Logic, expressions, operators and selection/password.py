@@ -1,6 +1,8 @@
-askpassword = input("Please enter your password: ")
+askpassword = input ("Please enter your password: ")
 
-if askpassword == str ("numbnutz"):
+password = str.lower("numbnutz")
+
+if password == ("numbnutz"):
     print("Welcome")
 else:
     print("Wrong password")
