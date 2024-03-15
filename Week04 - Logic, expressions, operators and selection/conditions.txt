@@ -1,0 +1,5 @@
+(a<b) = false
+(a!=b) = true
+(a>b) and (a<c) = false
+(a-1 ==b) = true
+not(b>c) = false
