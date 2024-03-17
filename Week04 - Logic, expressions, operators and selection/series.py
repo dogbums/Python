@@ -32,8 +32,41 @@ if (num1 < 0):
 
 else: num1neg = 0
 
-print(num1pos)
-print(num1neg)
+if (num2 > 0):
+    num2pos = num2
+else: num2pos = 0
+
+if (num2 < 0):
+    num2neg = (num2)
+
+else: num2neg = 0
+
+if (num3 > 0):
+    num3pos = num3
+else: num3pos = 0
+
+if (num3 < 0):
+    num3neg = (num3)
+
+else: num3neg = 0
+
+if (num4 > 0):
+    num4pos = num4
+else: num4pos = 0
+
+if (num4 < 0):
+    num4neg = (num4)
+
+else: num4neg = 0
+
+if (num5 > 0):
+    num5pos = num5
+else: num5pos = 0
+
+if (num5 < 0):
+    num5neg = (num5)
+
+else: num5neg = 0
 
 # if num1 == num1pos:
 #     num1neg = 0
@@ -81,13 +114,13 @@ print(num1neg)
 #     num5pos = 0
 
 
-# totalpos = (num1pos + num2pos + num3pos + num4pos + num5pos)
+totalpos = (num1pos + num2pos + num3pos + num4pos + num5pos)
 
-# totalneg = (num1neg + num2neg + num3neg + num4neg + num5neg)
+totalneg = (num1neg + num2neg + num3neg + num4neg + num5neg)
 
-# print(totalpos)
+print(totalpos)
       
-# print(totalneg)
+print(totalneg)
 
 # # print("Sum of positive integers:" (positivenums))
 
