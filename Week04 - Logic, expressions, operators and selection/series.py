@@ -6,50 +6,89 @@ num3 = int(input("Please enter the third whole number: "))
 num4 = int(input("Please enter the fourth whole number: "))
 num5 = int(input("Please enter the fifth whole number: "))
 
-num1neg = int
-num1pos = int
-num2neg = int
-num2pos = int
-num3neg = int
-num3pos = int
-num4neg = int
-num4pos = int
-num5neg = int
-num5pos = int
+num1neg = (num1 or 0)
+num1pos = (num1 or 0)
+num2neg = (num2 or 0)
+num2pos = (num2 or 0)
+num3neg = (num3 or 0)
+num3pos = (num3 or 0)
+num4neg = (num4 or 0)
+num4pos = (num4 or 0)
+num5neg = (num5 or 0)
+num5pos = (num5 or 0)
+
+num1 = (num1pos or num1neg)
+num2 = (num2pos or num2neg)
+num3 = (num3pos or num3neg)
+num4 = (num4pos or num4neg)
+num5 = (num5pos or num5neg)
 
 if (num1 > 0):
-    num1 = (num1pos)
-else:
-    num1 = int(num1neg)
+    num1pos = num1
+else: num1pos = 0
 
-if (num2 > 0):
-    num2 = (num2pos)
-else:
-    num2 = int(num2neg)
+if (num1 < 0):
+    num1neg = (num1)
 
-if (num3 > 0):
-    num3 = (num3pos)
-else:
-    num3 = int(num3neg)
+else: num1neg = 0
 
-if (num4 > 0):
-    num4 = (num4pos)
-else:
-    num4 = int(num4neg)
+print(num1pos)
+print(num1neg)
 
-if (num5 > 0):
-    num5 = (num5pos)
-else:
-    num5 = int(num5neg)
+# if num1 == num1pos:
+#     num1neg = 0
+# else:
+#     num1pos = 0
 
-postotal = num1pos + num2pos + num3pos + num4pos + num5pos
+# if (num2 > 0):
+#     num2 = (num2pos)
+# else:
+#     num2 = (num2neg)
 
-negtotal = num1neg + num2neg + num3neg + num4neg + num5neg
+# if num2 == num2pos:
+#     num2neg = 0
+# else:
+#     num2pos = 0
 
-print (postotal)
+# if (num3 > 0):
+#     num3 = (num3pos)
+# else:
+#     num3 = (num3neg)
 
-print (negtotal)
+# if num3 == num3pos:
+#     num3neg = 0
+# else:
+#     num3pos = 0
 
-# print("Sum of positive integers:" (positivenums))
+# if (num4 > 0):
+#     num4 = (num4pos)
+# else:
+#     num4 = (num4neg)
 
-# print("Sum of negative integers: "(negativenums))
+# if num4 == num4pos:
+#     num4neg = 0
+# else:
+#     num4pos = 0
+
+# if (num5 > 0):
+#     num5 = (num5pos)
+# else:
+#     num5 = (num5neg)
+
+# if num5 == num5pos:
+#     num5neg = 0
+# else:
+#     num5pos = 0
+
+
+# totalpos = (num1pos + num2pos + num3pos + num4pos + num5pos)
+
+# totalneg = (num1neg + num2neg + num3neg + num4neg + num5neg)
+
+# print(totalpos)
+      
+# print(totalneg)
+
+# # print("Sum of positive integers:" (positivenums))
+
+# # print("Sum of negative integers: "(negativenums))
