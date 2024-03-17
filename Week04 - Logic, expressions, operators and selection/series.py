@@ -70,6 +70,14 @@ if (num5 < 0):
 
 else: num5neg = 0
 
+totalpos = (num1pos + num2pos + num3pos + num4pos + num5pos)
+
+totalneg = (num1neg + num2neg + num3neg + num4neg + num5neg)
+
+print(f"Sum of positive integers: {totalpos}")
+      
+print(f"Sum of negative integers: {totalneg}")
+
 # if num1 == num1pos:
 #     num1neg = 0
 # else:
@@ -115,13 +123,6 @@ else: num5neg = 0
 # else:
 #     num5pos = 0
 
-totalpos = (num1pos + num2pos + num3pos + num4pos + num5pos)
-
-totalneg = (num1neg + num2neg + num3neg + num4neg + num5neg)
-
-print(f"Sum of positive integers: {totalpos}")
-      
-print(f"Sum of negative integers: {totalneg}")
 
 # # print("Sum of positive integers:" (positivenums))
 
