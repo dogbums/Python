@@ -1,3 +1,5 @@
+# A program that takes 5 integers (mixed negative and positive) then adds the positive and negative values separately
+
 print("Please input 5 whole numbers (can be either positive or negative, but not zero): ")
 
 num1 = int(input("Please enter the first whole number: "))
