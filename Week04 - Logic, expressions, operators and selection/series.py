@@ -113,14 +113,13 @@ else: num5neg = 0
 # else:
 #     num5pos = 0
 
-
 totalpos = (num1pos + num2pos + num3pos + num4pos + num5pos)
 
 totalneg = (num1neg + num2neg + num3neg + num4neg + num5neg)
 
-print(totalpos)
+print(f"Sum of positive integers: {totalpos}")
       
-print(totalneg)
+print(f"Sum of negative integers: {totalneg}")
 
 # # print("Sum of positive integers:" (positivenums))
 
