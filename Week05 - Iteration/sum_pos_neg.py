@@ -29,11 +29,11 @@ num10 = int(input("Please enter the tenth whole number: "))
 # num4 = (num4pos or num4neg)
 # num5 = (num5pos or num5neg)
 
-numberlist = (num1, num2, num3, num4, num4, num5, num6, num7, num8, num9, num10)
+numberlist = num1, num2, num3, num4, num4, num5, num6, num7, num8, num9, num10
 
-positivelist = num1, num2, num3, num4, num5, num6, num7, num8, num9, num10 or 0
+positivelist = 0
 
-negativelist = num1, num2, num3, num4, num5, num6, num7, num8, num9, num10 or 0
+negativelist = 0
 
 for r in numberlist:
     if r > 0:
