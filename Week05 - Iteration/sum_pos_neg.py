@@ -11,6 +11,21 @@ num8 = int(input("Please enter the eight whole number: "))
 num9 = int(input("Please enter the ninth whole number: "))
 num10 = int(input("Please enter the tenth whole number: "))
 
+numberlist = num1, num2, num3, num4, num5, num6, num7, num8, num9, num10
+
+positivelist = 0
+
+negativelist = 0
+
+for r in numberlist:
+    if r > 0:
+        positivelist += r
+    else:
+        negativelist += r
+
+print(f"Sum of positives: {positivelist}")
+print(f"Sum of negatives: {negativelist}")
+
 
 # num1neg = (num1 or 0)
 # num1pos = (num1 or 0)
@@ -28,23 +43,6 @@ num10 = int(input("Please enter the tenth whole number: "))
 # num3 = (num3pos or num3neg)
 # num4 = (num4pos or num4neg)
 # num5 = (num5pos or num5neg)
-
-numberlist = num1, num2, num3, num4, num5, num6, num7, num8, num9, num10
-
-positivelist = 0
-
-negativelist = 0
-
-for r in numberlist:
-    if r > 0:
-        positivelist += r
-    else:
-        negativelist += r
-
-print(positivelist)
-print(negativelist)
-
-    
 
 # if (num1 > 0):
 #     num1pos = num1
