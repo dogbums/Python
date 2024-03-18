@@ -10,8 +10,8 @@ positivelist = 0
 
 negativelist = 0
 
-for i in range(0, len(numberlist)):
-    r = numberlist[i]
+for j in range(0, len(numberlist)):
+    r = numberlist[j]
     if r > 0:
         positivelist += r
     else:
