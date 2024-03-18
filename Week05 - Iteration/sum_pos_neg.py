@@ -8,26 +8,43 @@ num5 = int(input("Please enter the fifth whole number: "))
 num6 = int(input("Please enter the sixth whole number: "))
 num7 = int(input("Please enter the seventh whole number: "))
 num8 = int(input("Please enter the eight whole number: "))
-num9 = int(input("Please enter the ninth whol number: "))
-num10 = int (input("Please enter the tenth whole number: "))
+num9 = int(input("Please enter the ninth whole number: "))
+num10 = int(input("Please enter the tenth whole number: "))
 
 
-num1neg = (num1 or 0)
-num1pos = (num1 or 0)
-num2neg = (num2 or 0)
-num2pos = (num2 or 0)
-num3neg = (num3 or 0)
-num3pos = (num3 or 0)
-num4neg = (num4 or 0)
-num4pos = (num4 or 0)
-num5neg = (num5 or 0)
-num5pos = (num5 or 0)
+# num1neg = (num1 or 0)
+# num1pos = (num1 or 0)
+# num2neg = (num2 or 0)
+# num2pos = (num2 or 0)
+# num3neg = (num3 or 0)
+# num3pos = (num3 or 0)
+# num4neg = (num4 or 0)
+# num4pos = (num4 or 0)
+# num5neg = (num5 or 0)
+# num5pos = (num5 or 0)
 
-num1 = (num1pos or num1neg)
-num2 = (num2pos or num2neg)
-num3 = (num3pos or num3neg)
-num4 = (num4pos or num4neg)
-num5 = (num5pos or num5neg)
+# num1 = (num1pos or num1neg)
+# num2 = (num2pos or num2neg)
+# num3 = (num3pos or num3neg)
+# num4 = (num4pos or num4neg)
+# num5 = (num5pos or num5neg)
+
+numberlist = (num1, num2, num3, num4, num4, num5, num6, num7, num8, num9, num10)
+
+positivelist = num1, num2, num3, num4, num5, num6, num7, num8, num9, num10 or 0
+
+negativelist = num1, num2, num3, num4, num5, num6, num7, num8, num9, num10 or 0
+
+for r in numberlist:
+    if r > 0:
+        positivelist += r
+    else:
+        negativelist += r
+
+print(positivelist)
+print(negativelist)
+
+    
 
 # if (num1 > 0):
 #     num1pos = num1
@@ -74,10 +91,10 @@ num5 = (num5pos or num5neg)
 
 # else: num5neg = 0
 
-totalpos = (num1pos + num2pos + num3pos + num4pos + num5pos)
+# totalpos = (num1pos + num2pos + num3pos + num4pos + num5pos)
 
-totalneg = (num1neg + num2neg + num3neg + num4neg + num5neg)
+# totalneg = (num1neg + num2neg + num3neg + num4neg + num5neg)
 
-print(f"Sum of positive integers: {totalpos}")
+# print(f"Sum of positive integers: {totalpos}")
       
-print(f"Sum of negative integers: {totalneg}")
+# print(f"Sum of negative integers: {totalneg}")
