@@ -1,12 +1,11 @@
 rows = int(input("Input number of rows: "))
 columns = int(input("Input number of columns: "))
 
-columns = ("*" * columns)
-rows = ("*" * rows)
+columns = int(f"* {columns * columns}")
+rows = int(f"* {rows * rows}")
 
-print(columns)
+lines = rows
 
-print(rows)
 
-# for (rows):
-#     print (f"{columns} \n")
+for (rows) in lines:
+    print ((f"{columns} \n") * rows)
