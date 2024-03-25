@@ -25,21 +25,17 @@ for r in number_list:
 
 if positive_list:
 # this checks if positive list is not empty
-
     average_of_pos = sum(positive_list) / len(positive_list)
-
+    print("Sum of positives: {}".format(sum(positive_list)))
+    print(f"Average of positives: {average_of_pos}")
 else:
     average_of_pos = 0
+    print("No positive numbers entered")
 
 if negative_list:
-
     average_of_neg = sum(negative_list) / len(negative_list)
-
+    print("Sum of negatives: {}".format(sum(negative_list)))
+    print(f"Average of negatives: {average_of_neg}")
 else:
     average_of_neg = 0
-
-
-print(f"Sum of positives: {positive_list}")
-print(f"Average of positives: {average_of_pos}")
-print(f"Sum of negatives: {negative_list}")
-print(f"Average of negatives: {average_of_neg}")
+    print("No negative numbers entered")
