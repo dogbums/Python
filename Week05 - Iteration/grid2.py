@@ -10,9 +10,10 @@
 rows = int(input("Input number of rows: "))
 columns = int(input("Input number of columns: "))
 
-for x in range(0, rows):
-    for y in range(0, columns):
-        print("*")
+for x in range(rows):
+    for y in range(columns):
+        print("*", end="")  # Print stars on the same line.
+    print()  # Move to the next line after each row is printed.
 
 
 
