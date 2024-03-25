@@ -11,23 +11,31 @@ num8 = int(input("Please enter the eight whole number: "))
 num9 = int(input("Please enter the ninth whole number: "))
 num10 = int(input("Please enter the tenth whole number: "))
 
-number_list = num1, num2, num3, num4, num5, num6, num7, num8, num9, num10
+number_list = [num1, num2, num3, num4, num5, num6, num7, num8, num9, num10]
 
-positive_list = 0
+positive_list = []
 
-negative_list = 0
+negative_list = []
 
 for r in number_list:
     if r > 0:
-        positive_list += r
+        positive_list.append(r)
     else:
-        negative_list += r
+        negative_list.append(r)
 
-average_of_pos = positive_list /5
+if positive_list:
+# this checks if positive list is not empty
+    average_of_pos = sum(positive_list) / len(positive_list)
+    print("Sum of positives: {}".format(sum(positive_list)))
+    print(f"Average of positives: {average_of_pos}")
+else:
+    average_of_pos = 0
+    print("No positive numbers entered")
 
-average_of_neg = negative_list /5
-
-print(f"Sum of positives: {positive_list}")
-print(f"Average of positives: {average_of_pos}")
-print(f"Sum of negatives: {negative_list}")
-print(f"Average of negatives: {average_of_neg}")
+if negative_list:
+    average_of_neg = sum(negative_list) / len(negative_list)
+    print("Sum of negatives: {}".format(sum(negative_list)))
+    print(f"Average of negatives: {average_of_neg}")
+else:
+    average_of_neg = 0
+    print("No negative numbers entered")
