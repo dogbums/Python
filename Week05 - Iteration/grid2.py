@@ -10,8 +10,10 @@
 rows = int(input("Input number of rows: "))
 columns = int(input("Input number of columns: "))
 
-for x in range(1, columns):
-    print(f"*" * rows)
+for x in range(0, rows):
+    for y in range(0, columns):
+        print("*")
+
 
 
 
