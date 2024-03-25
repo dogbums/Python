@@ -1,0 +1,23 @@
+Writing Christmas cards = deterministic
+Explanation: You have a finite number of family members to write to
+
+Washing up = deterministic
+Explanation: There is a finite amount of washing up to be done
+
+Reading a book = deterministic
+Explanation: Eventually the book will end
+
+Waiting for someone to answer the phone = non-deterministic
+Explanation: There is no way to determine how long you will have to wait
+
+Counting to 10 in French = deterministic
+Explanation: There is a set number that you must count up to
+
+Playing a game of 501 in darts = deterministic
+Explanation: There is a set score that must be reached
+
+Laying the table for a dinner party = deterministic
+Explanation: There are only so many plates and pieces of cutlery etc. that must be laid out
+
+Answering this question = deterministic
+Explanation: There is a set number of questions to be answered
