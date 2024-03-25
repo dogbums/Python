@@ -23,10 +23,21 @@ for r in number_list:
     else:
         negative_list.append(r)
 
+if positive_list:
+# this checks if positive list is not empty
 
-average_of_pos = sum(positive_list) / len(positive_list)
+    average_of_pos = sum(positive_list) / len(positive_list)
 
-average_of_neg = sum(negative_list) / len(negative_list)
+else:
+    average_of_pos = 0
+
+if negative_list:
+
+    average_of_neg = sum(negative_list) / len(negative_list)
+
+else:
+    average_of_neg = 0
+
 
 print(f"Sum of positives: {positive_list}")
 print(f"Average of positives: {average_of_pos}")
