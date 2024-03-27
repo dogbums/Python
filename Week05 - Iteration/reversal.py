@@ -5,19 +5,18 @@ dcount = 0
 for d in number:
 
     if d == "-":
-         print("Program terminated")
          break
 
     else: dcount += 1
     
 
-    while dcount > 11:
+while dcount > 11:
 
 
         print("The number is invalid")
         break
     
 
-    if dcount <= 11:
+if dcount <= 11:
         print("The number reversed is: ")
         print(number[::-1])
